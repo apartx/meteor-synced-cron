@@ -21,3 +21,4 @@ Package.onTest(function (api) {
   api.use(['tinytest', 'underscore', 'logging']);
   api.addFiles(['synced-cron-server.js', 'synced-cron-tests.js'], ['server']);
 });
+
